@@ -8,5 +8,4 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Demo_Project_02';
 
-  // isLoggedIn : boolean = false;
 }

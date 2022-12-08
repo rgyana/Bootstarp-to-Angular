@@ -7,7 +7,7 @@ import { ComponentsModule } from '../components/components.module';
 
 import { PagesModule } from '../pages/pages.module';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-
+import { ChartModule } from 'angular2-chartjs';
 
 @NgModule({
   declarations: [
@@ -19,7 +19,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     DashboardRoutingModule,
     ComponentsModule,
     PagesModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    ChartModule
   ],
 
   exports:[
